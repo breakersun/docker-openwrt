@@ -6,6 +6,10 @@ COPY qemu-aarch64-static /usr/bin/
 
 ADD openwrt-armvirt-64-default-rootfs.tar.gz /
 
+ADD luci-app-ssr-plus_1-121_all.ipk /
+
+RUN opkg install luci-app-ssr-plus_1-121_all.ipk
+
 USER root
 
 # using exec format so that /sbin/init is proc 1 (see procd docs)
