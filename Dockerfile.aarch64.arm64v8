@@ -6,10 +6,10 @@ COPY qemu-aarch64-static /usr/bin/
 
 ADD openwrt-armvirt-64-default-rootfs.tar.gz /
 
-ADD luci-app-ssr-plus_1-121_all.ipk /tmp/luci-app-ssr-plus_1-121_all.ipk
+ADD luci-app-ssr-plus_1-115_all.ipk /tmp/luci-app-ssr-plus_1-115_all.ipk
 
 RUN mkdir /var/lock && \
-	opkg install /tmp/luci-app-ssr-plus_1-121_all.ipk
+	opkg install /tmp/luci-app-ssr-plus_1-115_all.ipk
 
 USER root
 
