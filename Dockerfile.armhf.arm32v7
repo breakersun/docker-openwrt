@@ -1,0 +1,12 @@
+FROM scratch
+
+MAINTAINER leosun <leosunsl@outlook.com>
+
+COPY qemu-arm-static /usr/bin/
+
+ADD openwrt-brcm2708-bcm2710-rpi-3-rootfs.tar.gz /
+
+USER root
+
+# using exec format so that /sbin/init is proc 1 (see procd docs)
+CMD ["/sbin/init"]
