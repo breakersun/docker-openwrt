@@ -4,9 +4,9 @@ MAINTAINER leosun <leosunsl@outlook.com>
 
 COPY qemu-aarch64-static /usr/bin/
 
-wget https://github.com/breakersun/lede/releases/download/test/openwrt-armvirt-64-default-rootfs.tar.gz
+RUN wget https://github.com/breakersun/lede/releases/download/test/openwrt-armvirt-64-default-rootfs.tar.gz
 
-ADD openwrt-armvirt-64-default-rootfs.tar.gz /
+#ADD openwrt-armvirt-64-default-rootfs.tar.gz /
 
 USER root
 
