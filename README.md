@@ -6,10 +6,7 @@ bump to Lean
 
 新增：
 
-1. openclash
+1. 增加frpc，增加nps-client
+2. 精简容量，删除多余主题，建议使用默认bootstrap主题
+3. 修改ssr plus，在server list页面，增加一个Apply按钮，点击后即时切换到目标节点，并启动ssr
 
-
-
-如果启用后发现web管理页面反应迟钝，可以参考如下帖子的方案进行处理
-
-https://www.right.com.cn/forum/thread-1217579-1-1.html
