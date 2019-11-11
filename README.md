@@ -4,6 +4,16 @@ bump to Lean
 
 实验性项目，紧跟大雕的代码
 
+
+
+本次修改：
+
+- 增加了https://github.com/Lienol/openwrt-package.git 里面的passwall插件
+- 更新lean代码到最新
+- 移除了ssr plus添加的按钮，感觉效果不太好，缺少很多过场UI提示
+
+
+
 新增：
 
 1. 增加frpc，增加nps-client
