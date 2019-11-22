@@ -6,7 +6,16 @@ bump to Lean
 
 
 
-本次修改：
+##20191122:
+
+- 更新大雕源码
+- 更新Lieonol packages源码
+
+
+
+
+
+##20191110：
 
 - 增加了https://github.com/Lienol/openwrt-package.git 里面的passwall插件
 - 更新lean代码到最新
