@@ -4,9 +4,12 @@ bump to Lean
 
 实验性项目，紧跟大雕的代码
 
+## 20191125：
+
+- 更新Lieonol passwall插件，带魔改主题
 
 
-##20191122:
+## 20191122:
 
 - 更新大雕源码
 - 更新Lieonol packages源码
@@ -15,7 +18,7 @@ bump to Lean
 
 
 
-##20191110：
+## 20191110：
 
 - 增加了https://github.com/Lienol/openwrt-package.git 里面的passwall插件
 - 更新lean代码到最新
@@ -23,7 +26,7 @@ bump to Lean
 
 
 
-新增：
+## 新增：
 
 1. 增加frpc，增加nps-client
 2. 精简容量，删除多余主题，建议使用默认bootstrap主题
