@@ -4,6 +4,12 @@ bump to Lean
 
 实验性项目，紧跟大雕的代码
 
+
+## 20191208:
+
+- 更新lean源码以及lieonol仓库源码
+
+
 ## 20191125：
 
 - 更新Lieonol passwall插件，带魔改主题
