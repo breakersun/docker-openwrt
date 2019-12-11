@@ -1,0 +1,13 @@
+FROM scratch
+
+MAINTAINER leosun <leosunsl@outlook.com>
+
+COPY qemu-aarch64-static /usr/bin/
+
+#ADD https://github.com/breakersun/lede/releases/download/20191104/openwrt-armvirt-64-default-rootfs.tar.gz /
+ADD pi-n1-group_openwrt-armvirt-64-default-rootfs.tar.gz /
+
+USER root
+
+# using exec format so that /sbin/init is proc 1 (see procd docs)
+CMD ["/sbin/init"]
