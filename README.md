@@ -4,6 +4,18 @@ bump to Lean
 
 实验性项目，紧跟大雕的代码
 
+## 20191212
+
+- 增加了PI Group的最新固件，tag:pigroup
+
+遇到小问题：
+docker部署后，DNS不生效，ping始终返回bad address
+
+修复方式：
+vi /etc/resolv.conf
+将默认的127.0.0.11修改为127.0.0.1
+
+原因不明
 
 ## 20191208:
 
