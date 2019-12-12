@@ -1,21 +1,35 @@
 # docker-openwrt
 
-bump to Lean 
 
-实验性项目，紧跟大雕的代码
+
+实验性项目，紧跟大雕的代码以及PI群最新好用的固件。
+
+
 
 ## 20191212
 
 - 增加了PI Group的最新固件，tag:pigroup
 
-遇到小问题：
+### 遇到小问题：
 docker部署后，DNS不生效，ping始终返回bad address
 
-修复方式：
-vi /etc/resolv.conf
-将默认的127.0.0.11修改为127.0.0.1
+- 修复方式（重启失效）：
+  vi /etc/resolv.conf
+  将默认的127.0.0.11修改为127.0.0.1
 
-原因不明
+- 或者将如下内容，加入开机启动项（重启不失效）：
+
+```
+cat > /etc/resolv.conf <<EOF
+search lan
+nameserver 127.0.0.1
+options ndots:0
+EOF
+```
+
+- 原因不明
+
+
 
 ## 20191208:
 
