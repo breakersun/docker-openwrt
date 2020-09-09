@@ -6,6 +6,38 @@
 
 
 
+
+
+## 使用方法
+
+
+
+```
+docker pull breakersun/openwrt:20200909
+
+docker run --restart always -d --network macnet --privileged breakersun/openwrt:20200909 /sbin/init
+```
+
+
+
+
+
+
+
+## tag : 20200909
+
+包含如下插件的最新版（截至20200909）：
+
+- ssr plus（lean自带）
+- [openclash](https://github.com/vernesong/OpenClash)
+- [helloworld](https://github.com/jerrykuku/luci-app-vssr)
+- [theme-aragon](https://github.com/jerrykuku/luci-theme-argon)
+- [jd-daily-bonus](https://github.com/jerrykuku/luci-app-jd-dailybonus)
+
+
+
+
+
 ## 20191215
 
 
