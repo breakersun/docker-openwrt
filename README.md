@@ -20,6 +20,15 @@ docker run --restart always -d --network macnet --privileged breakersun/openwrt:
 
 
 
+## tag: 20200911
+
+更新：
+
+- openclash
+- argon-theme
+
+
+
 ## tag: 20200910
 
 - openclash-beta
