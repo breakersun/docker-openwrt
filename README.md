@@ -20,6 +20,23 @@ docker run --restart always -d --network macnet --privileged breakersun/openwrt:
 
 
 
+
+
+## tag:20201210
+
+
+
+更新:
+
+- lean主代码
+- argon-theme
+- vssr
+- openclash以及依赖
+
+
+
+
+
 ## tag: 20200911
 
 更新：
